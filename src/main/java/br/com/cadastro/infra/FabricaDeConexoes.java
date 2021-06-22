@@ -13,7 +13,7 @@ public class FabricaDeConexoes {
             //1 - parâmetros
             String driver = "com.mysql.cj.jdbc.Driver";
             String usuario = "root";
-            String senha = "@Sharingan0991";
+            String senha = "root";
             String url = "jdbc:mysql://localhost:3307/projetoatm?zeroDateTimeBehavior=CONVERT_TO_NULL";
             //2 - carregar o driver na memória
             Class.forName(driver);
